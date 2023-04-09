@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zahir's Portfolio</title>
+<meta name="viewport" content="width=device-width ,initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-dark-grey.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center w3-row-padding">
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()"><i class="fa fa-home"></i> Home</a>
+      <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()"><i class="glyphicon glyphicon-user"></i>  About</a>
+      <a href="#skills" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()"><i class="fa fa-code"></i> Skills</a>
+      <a href="#education" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()"><i class="glyphicon glyphicon-education"></i> Education</a>
+      <a href="#experience" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()"><i class="glyphicon glyphicon-envelope"></i> Experience</a>
+      
+    </div>
+  </nav>
+
+<!-- Menu icon to open sidebar -->
+<span class="w3-button w3-top w3-xxlarge w3-text-white w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+<!-- Header -->
+<header class="w3-container w3-center w3-theme-d5 " style="padding: 90px 16px" id="home">
+
+    <img src="avatar.jpg" class="w3-circle " alt="Image" style="width:200px ; height:200px">
+
+    <h1 style="color: white;" class="w3-jumbo ">Muhammad Zahiruddin</h1>
+    <h4 style="color:white">Full-Time Student.</h4>
+    <button class="w3-button w3-blue w3-padding-large w3-margin-top">
+    <a style="color:white;" href="ZahirResume.pdf" download="ZahirResume">Download Resume</a>
+    </button>
+</header>
+
+<!-- About Section-->
+ <div class ="w3-content w3-justify w3-hover-text-black w3-padding-32 w3-row-padding w3-auto w3-center " id="about">
+    <div class="w3-center">
+     <h2 style="color:white ">About</h2>
+    </div>
+    <hr class="w3-opacity">
+    <h4 style="color:white ">I am reliable, hard-working with strong attention to detail and eager to learn about new technologies and business issues. I am able to work well both on my own initiative and as part of a team as well as to travel abroad.</h4>
+    <br>
+    <h5 style="color: white"><i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-right w3-text-blue  "></i> Selangor, Malaysia</h5>
+    <h5 style="color:white"><i class="fa fa-phone fa-fw w3-xlarge w3-margin-right w3-text-blue"></i> +60149947806</h5>
+    <h5 style="color:white"><i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right w3-text-blue"> </i> muhdzahir248@gmail.com</h5>
+</div>
+
+<!-- Skills Section-->
+<div class ="w3-content w3-justify w3-hover-text-black w3-padding-32 w3-row-padding w3-auto w3-center " id="skills">
+  <div class="w3-center">
+   <h2 style="color:white ">Skills</h2>
+  </div>
+  <hr class="w3-opacity">
+
+  <h4 style="color:white "><b>•</b> HTML5 (Intermediate)</h4>
+  <h4 style="color:white "><b>•</b> CSS3 (Basic)</h4>
+  <h4 style="color:white "><b>•</b> Javascript (Basic)</h4>
+  <h4 style="color:white "><b>•</b> C++ (Intermediate)</h4>
+  <h4 style="color:white "><b>•</b> MySQL (Basic)</h4>
+  <h4 style="color:white "><b>•</b> Bootstrap (Basic)</h4>
+
+</div>
+
+<!-- Education Section-->
+<div class="w3-padding-32 w3-content w3-row-padding w3-auto w3-center " id="education">
+    <h2 class="w3-text-white ">Education</h2>
+    <hr class="w3-opacity">
+
+    <div class="timeline">
+       <div class="container left">
+        <div class="content">
+            <h3>Universiti Teknikal Malaysia Melaka</h3>
+            <h4><b>(2021 - Now)</b></h4>
+            <p>Bachelor Of Computer Science (Software Development) With Honours</p>
+            <p>CGPA : 3.53 (Semester 3)</p>
+         </div>
+        </div>
+
+
+        <div class="container left">
+         <div class="content">
+            <h3>Kolej Matrikulasi Melaka</h3>
+            <h4><b>(2019 - 2021)</b></h4>
+            <p>Science Stream</p>
+            <p>CGPA : 3.75</p>
+         </div>
+        </div>
+    </div>
+</div>
+
+<!-- Experience Section-->
+<div class = "w3-padding-32 w3-content w3-row-padding w3-auto w3-center" id="experience">
+    <h2 class="w3-text-white">Experience</h2>
+    <hr class="w3-opacity">
+
+    <div class="timeline">
+       <div class="container left">
+          <div class="content">
+            <h3>99 Speedmart Sdn Bhd</h3>
+            <h4><b>(July 2022 - October 2022)</b></h4>
+            <h4>Storekeeper</h4>
+            <p><b>•</b> Filling the shelves</p>
+            <p><b>•</b> Interacting with customers</p>
+          </div>
+        </div>
+
+        <div class="container left">
+           <div class="content">
+            <h3>Caltex Himpunan Jitu Sdn Bhd</h3>
+            <h4><b>(April 2019 - May 2019)</b></h4>
+            <h4>Cashier</h4>
+            <p><b>•</b> Serve customers at the counter</p>
+            <p><b>•</b> Clean the station area</p>
+           </div>
+        </div>
+    </div>
+</div>
+
+
+ 
+
+<!-- Footer-->
+<footer class="w3-container w3-white w3-center w3-margin-top w3-padding-large">
+    <p>Find me on social media.</p>
+    <a href="https://github.com/zahir248"><i class='fa fa-github w3-hover-opacity' style='font-size:24px'></i></a>
+    <a href="https://www.facebook.com/Zahir248?mibextid=ZbWKwL"><i class="fa fa-facebook-official w3-hover-opacity w3-padding-30" style='font-size:24px'></i></a>
+    <a href="https://twitter.com/MuhdZah43547976?t=lC_EF42JNhD1-mmfW-CNdw&s=09"><i class="fa fa-twitter w3-hover-opacity" style='font-size:24px'></i></a>
+    <a href="https://www.linkedin.com/in/muhammad-zahiruddin-1412b81b0"><i class="fa fa-linkedin w3-hover-opacity" style='font-size:24px'></i></a>
+    <h4 class="w3-text-black w3-padding-32 ">Designed by Zahir</h4>
+</footer>
+
+</body>
+</html>

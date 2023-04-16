@@ -16,7 +16,7 @@ body {
     content: '';
     position: absolute;
     width: 3px;
-    background-color: mediumslateblue;
+    background-color: whitesmoke;
     top: 0;
     bottom: 0;
     left: 2.6%;
@@ -36,8 +36,8 @@ body {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: whitesmoke;
-    border: 4px solid mediumslateblue;
+    background-color: darkslategrey;
+    border: 4px solid whitesmoke;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -62,7 +62,7 @@ body {
 
 .content  {
     padding: 20px 30px;
-    background-color: mediumslateblue;
+    background-color: whitesmoke;
     position: relative;
     border-radius: 6px;
 }
@@ -89,7 +89,7 @@ body {
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent mediumslateblue transparent transparent;
+    border-color: transparent whitesmoke transparent transparent;
 }
   
 .left::after{

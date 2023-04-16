@@ -103,16 +103,4 @@ img {
     border-radius: 50%;
 }
 
-@media screen and (min-width: 320px){
-    .header {
-        padding: 120px 16px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .header {
-        padding: 120px 16px;
-    }
-}
-
 

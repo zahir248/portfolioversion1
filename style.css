@@ -61,6 +61,10 @@ body {
     border-color: transparent transparent transparent black;
 }
 
+.left::after{
+  left: 15px;
+}
+
 .content  {
     padding: 20px 30px;
     background-color: white;
@@ -93,10 +97,150 @@ body {
     border-color: transparent white transparent transparent;
 }
   
-.left::after{
-    left: 15px;
+/* Media query for iPads */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .left {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+  }
+
+  .left::before {
+    left: auto;
+    left: 30px;
+  }
+
+  .left::after {
+    left: auto;
+    left: -14px;
+  }
 }
 
+/* Media query for iPads Pro */
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .left {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .left::before {
+    left: auto;
+    left: 30px;
+  }
+
+  .left::after {
+    left: auto;
+    left: 15px;
+  }
+}
+
+/* Media query for samsung galaxy s8+*/
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+  .left {
+    /* adjust the left position to fit the screen */
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .left::before {
+    /* adjust the arrow position to fit the screen */
+    top: 10px;
+    left: 20px;
+  }
+
+  .left::after {
+    left: auto;
+    left: -5px;
+  }
+}
+
+/* Media query for iphone se */
+@media only screen and (max-width: 667px) and (orientation: landscape) {
+  .left {
+    /* adjust the left position to fit the screen */
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .left::before {
+    /* adjust the arrow position to fit the screen */
+    top: 10px;
+    left: 20px;
+  }
+
+  .left::after {
+    left: auto;
+    left: 53px;
+  }
+}
+
+/*
+ Media query for ipad mini 
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  .left {
+    /* adjust the left position to fit the screen 
+    left: 55%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .left::before {
+    /* adjust the arrow position to fit the screen 
+    top: 10px;
+    left: 20px;
+  }
+
+  .left::after {
+    left: auto;
+    left: -33px;
+  }
+}*/
+
+/* Media query for ipad pro 
+@media only screen and (max-width: 1024px) {
+  .left {
+    /* adjust the left position to fit the screen 
+    left: 55%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .left::before {
+    /* adjust the arrow position to fit the screen 
+    top: 10px;
+    left: 20px;
+  }
+
+  .left::after {
+    left: auto;
+    left: -32px;
+  }
+}
+
+ Media query for ipad pro 
+@media only screen and (max-width: 1024px) {
+  .left {
+    /* adjust the left position to fit the screen 
+    left: 55%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .left::before {
+    /* adjust the arrow position to fit the screen 
+    top: 10px;
+    left: 20px;
+  }
+
+  .left::after {
+    left: auto;
+    left: -32px;
+  }
+} */
 
 .skill {
     display: inline-block;
@@ -239,5 +383,24 @@ body {
         
       }
 
-    
+      .nav-item a {
+        font-size: 15px; /* or any other size that you prefer */
+    }
+
+      .w3-container {
+        position: relative;
+      }
+      
+      .typing-text::after {
+        content: "|";
+        position: absolute;
+        right: 0;
+        animation: typing 1s steps(1) infinite;
+      }
+      
+      @keyframes typing {
+        from { visibility: hidden; }
+        to { visibility: visible; }
+      }
+      
     

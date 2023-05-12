@@ -10,17 +10,19 @@ body {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .timeline::after {
     content: '';
     position: absolute;
-    width: 10px;
+    width: 2px;
     background-color: #CCEDF4;
     top: 0;
     bottom: 0;
     left: 2.6%;
-    margin-left: -10px;
+    margin-left: -7px;
+    z-index:1;
 }
 
 
@@ -29,6 +31,7 @@ body {
     position: relative;
     background-color: inherit;
     width: 50%;
+    z-index:2;
 }
 
 .container::after {
@@ -37,11 +40,11 @@ body {
     width: 20px;
     height: 20px;
     right: -17px;
-    background-color: #004AAD;
-    border: 4px solid #004AAD;
+    background-color: white;
+    border: 1px solid #0161F2;
     top: 15px;
     border-radius: 50%;
-    z-index: 1;
+    z-index:2;
 }
 
 .left {
@@ -63,13 +66,17 @@ body {
 
 .left::after{
   left: 15px;
+  position : absolute;
+  z-index:1;
 }
 
-.content  {
-    padding: 20px 30px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px;
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  z-index: -1;
+  border:none;
 }
 
 @media screen and (min-width: 600px){
@@ -86,15 +93,21 @@ body {
 
 .container {
     width: 100%;
-    padding-left: 70px;
+    padding-left: 15px;
     padding-right: 25px;
+    position: relative;
+    z-index: 1;
+
 }
 
 .container::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+  position: absolute;
+  content: "";
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  z-index: 0;
 }
   
 /* Media query for iPads */
@@ -380,6 +393,7 @@ body {
         width: 100%;
         z-index: 999; /* set a high z-index to make sure the navigation is above other content */
         background-color: white;
+        padding: 10px;
         
       }
 
@@ -402,5 +416,27 @@ body {
         from { visibility: hidden; }
         to { visibility: visible; }
       }
+
+      .button {
+        display: inline-block;
+        padding: 8px 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top:5px;
+      }
       
-    
+      .button:hover {
+        background-color: #0062cc;
+      }
+      
+
+      
+
+
+      

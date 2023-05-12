@@ -435,6 +435,32 @@ body {
       }
       
 
+      /* Media query for devices with a maximum width of 375px */
+@media screen and (max-width: 375px) {
+  /* Navigation menu */
+  .nav {
+    padding: 5px;
+  }
+  
+  /* Menu items */
+  .nav-item a {
+    font-size: 12px;
+  }
+}
+
+ /* Media query for devices with a maximum width of 320px */
+  @media screen and (max-width: 320px) {
+    /* Navigation menu */
+    .nav {
+      padding: 2px;
+    }
+    
+    /* Menu items */
+    .nav-item a {
+      font-size: 9px;
+    }
+  }
+
       
 
 

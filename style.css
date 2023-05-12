@@ -96,7 +96,7 @@ body {
     padding-left: 15px;
     padding-right: 25px;
     position: relative;
-    z-index: 1;
+    z-index: -20;
 
 }
 
@@ -104,10 +104,10 @@ body {
   position: absolute;
   content: "";
   left: 60px;
-  border: medium solid white;
+  border: medium solid green;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-  z-index: 0;
+  border-color: transparent green transparent transparent;
+  z-index: -20;
 }
   
 /* Media query for iPads */

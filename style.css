@@ -460,39 +460,3 @@ body {
       font-size: 9px;
     }
   }
-
-      
-
-  .w3-xxlarge {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 150px;
-    background-color: #CCEDF4;
-  }
-
-  .w3-xxlarge img {
-    margin: 0 50px; /* add 50 pixels of margin on the left and right sides of each image */
-    transition: margin-left 0.5s ease-out; /* transition added */
-
-  }
-      
-  .w3-xxlarge:hover img {
-    margin-left: 0; /* move images to the left on hover */
-  }
-  
-  @media screen and (max-width: 414px) {
-    .w3-xxlarge img {
-      margin: 0 30px; /* add 50 pixels of margin on the left and right sides of each image */
-      transition: margin-left 0.5s ease-out; /* transition added */
-  
-    }
-  }
-
-  @media screen and (max-width: 280px) {
-    .w3-xxlarge img {
-      margin: 0 15px; /* add 50 pixels of margin on the left and right sides of each image */
-      transition: margin-left 0.5s ease-out; /* transition added */
-  
-    }
-  }

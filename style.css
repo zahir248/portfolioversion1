@@ -460,3 +460,32 @@ body {
       font-size: 9px;
     }
   }
+
+/* Custom CSS for the form labels and input fields */
+.form-group label,
+.form-group input,
+.form-group textarea {
+  font-size: 18px;
+}
+
+/* Custom CSS for the form container */
+.w3-card {
+  display: inline-block;
+  width: 100%;
+}
+
+/* Custom CSS for the submit button */
+.btn-form {
+  font-size: 18px;
+  width: 100%;
+  margin-top: 10px; /* Add some spacing between the form fields and the button */
+}
+
+  /* Add margin for the h2 "Get In Touch" */
+  .get-in-touch-heading {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+
+

@@ -488,6 +488,23 @@ body {
     margin-bottom: 30px;
   }
 
+  #skills h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+   /* Add styles for the progress container */
+   .w3-progress-container {
+    border-radius: 10px; /* Adjust the border-radius to make the progress bar rounder */
+    background-color: #f1f1f1;
+    height: 20px;
+  }
+
+    /* Add styles for the progress bar */
+    .w3-progressbar {
+      border-radius: 10px; /* Adjust the border-radius to make the progress bar itself round */
+    }
+
 
 
 

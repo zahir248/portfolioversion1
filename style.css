@@ -465,7 +465,7 @@ body {
 .form-group label,
 .form-group input,
 .form-group textarea {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* Custom CSS for the form container */
@@ -476,9 +476,10 @@ body {
 
 /* Custom CSS for the submit button */
 .btn-form {
-  font-size: 18px;
+  font-size: 16px;
   width: 100%;
   margin-top: 10px; /* Add some spacing between the form fields and the button */
+  margin-bottom: 10px;
 }
 
   /* Add margin for the h2 "Get In Touch" */

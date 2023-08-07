@@ -338,14 +338,14 @@ body {
   header h1 {
     display: inline-block;
     width: 60%;
-    margin-left: 20px;
+    margin-left: 40px;
     vertical-align: middle;
   }
 
   header h2 {
     display: inline-block;
-    width: 60%;
-    margin-left: 20px;
+    width: 80%;
+    margin-left: 40px;
     vertical-align: middle;
   }
   

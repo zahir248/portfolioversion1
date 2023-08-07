@@ -505,6 +505,32 @@ body {
       border-radius: 10px; /* Adjust the border-radius to make the progress bar itself round */
     }
 
+    .mySlides {display:none;}
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+  .header-title {
+      font-size: 25px;
+  }
+  .live-site-button {
+      color: #007bff; /* Text color */
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+  }
+  .live-site-icon {
+      margin-right: 5px;
+  }
+
 
 
 

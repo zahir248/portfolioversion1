@@ -1,6 +1,6 @@
 # ePortfolio
 
-This is my first personal project to apply what i learnt about web development myself.
+This is my first personal project to apply what i learnt about web development.
 
 I push my codes from microsoft visual studio code to master branch.
 

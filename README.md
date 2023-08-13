@@ -1,4 +1,4 @@
-# zahirportfolio
+# ePortfolio
 
 This is my first personal project to apply what i learnt about web development myself.
 

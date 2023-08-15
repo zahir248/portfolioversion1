@@ -1,9 +1,9 @@
 # ePortfolio
 
-This is my first personal project to apply what i learnt about web development.
+ePortfolio is an online portfolio to display myself.
 
-I push my codes from microsoft visual studio code to master branch.
+Developed using the following technologies:
 
-And hosting it as github pages.
-
-Languange / framework : html, css, javascript, w3, bootstrap
+Programming Language: HTML, CSS, JavaScript
+Framework: Bootstrap, W3
+Tool: Microsoft Visual Studio Code

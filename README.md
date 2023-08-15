@@ -1,9 +1,9 @@
-# ePortfolio
+                                                     ePortfolio
 
 ePortfolio is an online portfolio to display myself.
 
 
-Developed using the following technologies:
+                                     Developed using the following technologies:
 
 
 Programming Language: HTML, CSS, JavaScript

@@ -3,11 +3,11 @@
 ePortfolio is an online portfolio to display myself.
 
 
-                                     Developed using the following technologies:
+Developed using the following technologies:
 
 
-Programming Language: HTML, CSS, JavaScript
+  Programming Language: HTML, CSS, JavaScript
 
-Framework: Bootstrap, W3
+  Framework: Bootstrap, W3
 
-Tool: Microsoft Visual Studio Code
+  Tool: Microsoft Visual Studio Code

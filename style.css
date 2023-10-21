@@ -406,9 +406,9 @@ body {
       
       .typing-text::after {
         content: "|";
-        position: absolute;
+        position: relative;
         right: 0;
-        animation: typing 1s steps(1) infinite;
+        color : #343A40;
       }
       
       @keyframes typing {
